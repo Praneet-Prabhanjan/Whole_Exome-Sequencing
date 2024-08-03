@@ -7,16 +7,7 @@ Whole Exome Sequencing here is referred to as WES, a widely used method in NGS t
 Here I describe one of the benchmarked WES pipelines, which starts and performs from a basic standard high-quality checking of raw data to complex findings and insights of the entire variants. I further describe entire open-source tools, techniques, algorithms, and software used during each step.
 
 **Among the steps**
-Quality check 
-Alignment 
-Recalibration
-Variant calling 
-Variant annotation.
+Quality check, Alignment, Recalibration, Variant calling, and Variant annotation.
 
 **Softwares**
-Fastp / FastQC
-Bowtie
-Samtools
-Varscan
-BCFtools
-VCFtools
+Fastp / FastQC, Bowtie, Samtools, Varscan, BCFtools, and VCFtools.
