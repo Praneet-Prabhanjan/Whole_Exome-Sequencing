@@ -6,7 +6,7 @@ start=$SECONDS
 # Fetch the sample data from the SRA database
 echo "Downloading sample data from SRA..."
 prefetch SRR098344
-fastq-dump --split-files SRR098344
+fasterq-dump — threads 2 — progress SRR098344   
 
 # Input FASTQ files
 READ1="SRR098344_1.fastq"
